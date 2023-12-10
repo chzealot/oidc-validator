@@ -15,7 +15,7 @@ func main() {
 	logger.Infof("start DingTalk calendar ...")
 
 	server := api.NewHttpServer()
-	if err := server.Run(":3021"); err != nil {
+	if err := server.Run(":3022"); err != nil {
 		logger.Errorf("start server failed, err=%s", err.Error())
 	}
 	select {}
